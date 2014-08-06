@@ -21,6 +21,14 @@
 		620ACB4019880E6F00AD3594 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620ACB2219880E6F00AD3594 /* UIKit.framework */; };
 		620ACB4819880E6F00AD3594 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 620ACB4619880E6F00AD3594 /* InfoPlist.strings */; };
 		620ACB4A19880E6F00AD3594 /* TimeLine_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 620ACB4919880E6F00AD3594 /* TimeLine_SampleTests.m */; };
+		620ACB571988109100AD3594 /* nodeBottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 620ACB541988109100AD3594 /* nodeBottom.png */; };
+		620ACB581988109100AD3594 /* nodeMiddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 620ACB551988109100AD3594 /* nodeMiddle.png */; };
+		620ACB591988109100AD3594 /* nodeTop.png in Resources */ = {isa = PBXBuildFile; fileRef = 620ACB561988109100AD3594 /* nodeTop.png */; };
+		620ACB5C1988110200AD3594 /* TopCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 620ACB5B1988110200AD3594 /* TopCustomCell.m */; };
+		620ACB5F1988111500AD3594 /* LeftCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 620ACB5E1988111500AD3594 /* LeftCustomCell.m */; };
+		620ACB621988113B00AD3594 /* NodeCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 620ACB611988113B00AD3594 /* NodeCustomCell.m */; };
+		620ACB651988114C00AD3594 /* RightCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 620ACB641988114C00AD3594 /* RightCustomCell.m */; };
+		620ACB681988115900AD3594 /* BottomCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 620ACB671988115900AD3594 /* BottomCustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,19 @@
 		620ACB4519880E6F00AD3594 /* TimeLine SampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeLine SampleTests-Info.plist"; sourceTree = "<group>"; };
 		620ACB4719880E6F00AD3594 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		620ACB4919880E6F00AD3594 /* TimeLine_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeLine_SampleTests.m; sourceTree = "<group>"; };
+		620ACB541988109100AD3594 /* nodeBottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nodeBottom.png; sourceTree = "<group>"; };
+		620ACB551988109100AD3594 /* nodeMiddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nodeMiddle.png; sourceTree = "<group>"; };
+		620ACB561988109100AD3594 /* nodeTop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nodeTop.png; sourceTree = "<group>"; };
+		620ACB5A1988110200AD3594 /* TopCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopCustomCell.h; sourceTree = "<group>"; };
+		620ACB5B1988110200AD3594 /* TopCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopCustomCell.m; sourceTree = "<group>"; };
+		620ACB5D1988111500AD3594 /* LeftCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftCustomCell.h; sourceTree = "<group>"; };
+		620ACB5E1988111500AD3594 /* LeftCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftCustomCell.m; sourceTree = "<group>"; };
+		620ACB601988113B00AD3594 /* NodeCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeCustomCell.h; sourceTree = "<group>"; };
+		620ACB611988113B00AD3594 /* NodeCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeCustomCell.m; sourceTree = "<group>"; };
+		620ACB631988114C00AD3594 /* RightCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightCustomCell.h; sourceTree = "<group>"; };
+		620ACB641988114C00AD3594 /* RightCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightCustomCell.m; sourceTree = "<group>"; };
+		620ACB661988115900AD3594 /* BottomCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomCustomCell.h; sourceTree = "<group>"; };
+		620ACB671988115900AD3594 /* BottomCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomCustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +133,8 @@
 		620ACB2419880E6F00AD3594 /* TimeLine Sample */ = {
 			isa = PBXGroup;
 			children = (
+				620ACB691988115F00AD3594 /* CustomCells */,
+				620ACB531988107100AD3594 /* Images */,
 				620ACB2D19880E6F00AD3594 /* AppDelegate.h */,
 				620ACB2E19880E6F00AD3594 /* AppDelegate.m */,
 				620ACB3019880E6F00AD3594 /* Main.storyboard */,
@@ -150,6 +173,33 @@
 				620ACB4619880E6F00AD3594 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		620ACB531988107100AD3594 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				620ACB541988109100AD3594 /* nodeBottom.png */,
+				620ACB551988109100AD3594 /* nodeMiddle.png */,
+				620ACB561988109100AD3594 /* nodeTop.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		620ACB691988115F00AD3594 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				620ACB5A1988110200AD3594 /* TopCustomCell.h */,
+				620ACB5B1988110200AD3594 /* TopCustomCell.m */,
+				620ACB5D1988111500AD3594 /* LeftCustomCell.h */,
+				620ACB5E1988111500AD3594 /* LeftCustomCell.m */,
+				620ACB601988113B00AD3594 /* NodeCustomCell.h */,
+				620ACB611988113B00AD3594 /* NodeCustomCell.m */,
+				620ACB631988114C00AD3594 /* RightCustomCell.h */,
+				620ACB641988114C00AD3594 /* RightCustomCell.m */,
+				620ACB661988115900AD3594 /* BottomCustomCell.h */,
+				620ACB671988115900AD3594 /* BottomCustomCell.m */,
+			);
+			name = CustomCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +278,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				620ACB581988109100AD3594 /* nodeMiddle.png in Resources */,
+				620ACB571988109100AD3594 /* nodeBottom.png in Resources */,
 				620ACB3719880E6F00AD3594 /* Images.xcassets in Resources */,
 				620ACB2919880E6F00AD3594 /* InfoPlist.strings in Resources */,
 				620ACB3219880E6F00AD3594 /* Main.storyboard in Resources */,
+				620ACB591988109100AD3594 /* nodeTop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +302,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				620ACB651988114C00AD3594 /* RightCustomCell.m in Sources */,
+				620ACB621988113B00AD3594 /* NodeCustomCell.m in Sources */,
+				620ACB5C1988110200AD3594 /* TopCustomCell.m in Sources */,
 				620ACB3519880E6F00AD3594 /* ViewController.m in Sources */,
 				620ACB2F19880E6F00AD3594 /* AppDelegate.m in Sources */,
+				620ACB681988115900AD3594 /* BottomCustomCell.m in Sources */,
+				620ACB5F1988111500AD3594 /* LeftCustomCell.m in Sources */,
 				620ACB2B19880E6F00AD3594 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
